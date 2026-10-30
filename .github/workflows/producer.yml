@@ -1,0 +1,10 @@
+name: Merge to main
+run-name: 'x"; echo INJECTED; #'
+on:
+  push:
+    branches: [main]
+jobs:
+  b:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo producer-ok
